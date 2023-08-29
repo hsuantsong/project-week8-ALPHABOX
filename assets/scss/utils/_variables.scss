@@ -290,6 +290,7 @@ $cyans: (
 $primary: #7000ff !default; //*custom
 //$secondary:     $gray-600 !default;
 $secondary: #6E01F8 !default; //*custom
+$third: #6D01F7 !default; //*custom
 //$success:       $green !default;
 $success: #380C7E !default; //*custom
 //$info:          $cyan !default;
@@ -314,7 +315,16 @@ $theme-colors: (
   "warning": $warning,
   "danger": $danger,
   "light": $light,
-  "dark": $dark) !default;
+  "dark": $dark,
+  "third": $third,
+  //*custom
+  "dark-100": $dark-100,
+  //*custom
+  "dark-200": $dark-200,
+  //*custom
+  "dark-300": $dark-300,
+  //*custom
+  ) !default;
 // scss-docs-end theme-colors-map
 
 // Characters which are escaped by the escape-svg function
@@ -619,6 +629,8 @@ $font-sizes: (
   //16px
   20: $font-size-base*1.25,
   //20px
+  24: $font-size-base*1.5,
+  //24px
   32: $font-size-base*2,
   //32px
   40: $font-size-base*2.5,
