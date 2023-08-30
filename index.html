@@ -16,12 +16,12 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <!--載入SWIPER-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <script type="module" crossorigin src="/project-week8-ALPHABOX/assets/main-aa4272a7.js"></script>
-  <link rel="stylesheet" href="/project-week8-ALPHABOX/assets/main-34ce57df.css">
+  <script type="module" crossorigin src="/project-week8-ALPHABOX/assets/main-d59f1a55.js"></script>
+  <link rel="stylesheet" href="/project-week8-ALPHABOX/assets/main-943a0c99.css">
 </head>
 
 <body>
-  <header class="cust-nav border-bottom border-light">
+  <header class="border-bottom border-light bg-third">
     <div class="container d-flex justify-content-between align-items-center py-16">
         <div>
             <a href="index.html">
@@ -33,25 +33,25 @@
             <div class="container-fluid">
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-expanded="false" aria-label="Toggle navigation" style="color:#fff">
+                    <span class="navbar-toggler-icon" style="color:#fff"></span>
                 </button>
             </div>
         </nav>
         <!--PC NAVBAR-->
         <div class="d-lg-block d-none">
-            <ul class="list-unstyled mb-0 d-flex">
-                <li><a href="#" class="fw-medium text-light pe-40">產品</a></li>
-                <li><a href="#" class="fw-medium text-light pe-40">關於我們</a></li>
-                <li><a href="#" class="fw-medium text-light pe-40">最新消息</a></li>
-                <li><a href="#" class="fw-medium text-light pe-40">FAQ</a></li>
-                <li><a href="#" class="fw-medium text-light">聯絡我們</a></li>
+            <ul class="navbar-nav list-unstyled flex-row">
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-40">產品</a></li>
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-40">關於我們</a></li>
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-40">最新消息</a></li>
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-40">FAQ</a></li>
+                <li class="nav-item"><a href="#" class="fw-medium text-light">聯絡我們</a></li>
             </ul>
         </div>
         <div class="d-lg-block d-none d-lg-flex align-items-center">
-            <ul class="list-unstyled mb-0 d-flex">
-                <li><a href="#" class="fw-medium text-light pe-24">註冊</a></li>
-                <li><a href="#" class="fw-medium text-light pe-32">登入</a></li>
+            <ul class="list-unstyled navbar-nav flex-row">
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-24">註冊</a></li>
+                <li class="nav-item"><a href="#" class="fw-medium text-light pe-32">登入</a></li>
             </ul>
             <button class="btn btn-light text-dark fw-medium px-16 py-8" type="submit">
                 <span class="material-symbols-outlined me-4" style="vertical-align:middle">
@@ -62,16 +62,17 @@
 
     </div>
     <!--MOBILE COLLAPSE NAVBAR-->
-    <div class="collapse container pt-24 pb-32 border-top border-light" id="navbarToggleExternalContent">
+    <div class="collapse container pt-24 pb-32 border-top border-light bg-primary-gradient"
+        id="navbarToggleExternalContent">
         <div class="d-flex flex-column align-items-center">
             <ul class="list-unstyled mb-0 text-center w-100">
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">產品</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">關於我們</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">最新消息</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">FAQ</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">聯絡我們</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">註冊</a></li>
-                <li class="py-8 mb-4"><a href="#" class="fw-medium text-light">登入</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">產品</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">關於我們</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">最新消息</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">FAQ</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">聯絡我們</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">註冊</a></li>
+                <li class="py-8 mb-4"><a href="#" class="nav-link fw-medium text-light">登入</a></li>
             </ul>
             <button class="btn btn-light text-dark fw-medium px-16 py-8" type="submit">
                 <span class="material-symbols-outlined me-4" style="vertical-align:middle">
@@ -81,9 +82,109 @@
         </div>
     </div>
 </header>
+    <!--BANNER-->
+    <div class="bg-primary-gradient pt-28 banner">
+      <div class="container">
+        <div class="banner-top d-flex flex-column flex-lg-row-reverse justify-content-between mb-lg-56">
+          <div class="d-lg-flex flex-column justify-content-between">
+            <p class="fw-bold mt-8 mb-32 text-start spacing-2 border-top border-light">ALPHABOX+ STUDIO</p>
+            <p class="d-none d-lg-block fw-medium spacing-2">Copyright © 2023 Hexschool.</p>
+          </div>
+          <img class="alphabox-circle img-fluid mx-auto mb-32 mb-lg-0" src="/project-week8-ALPHABOX/assets/circle-10d6fa5f.png"
+            alt="alphabox logo">
+          <div class="d-flex align-items-end">
+            <p class="d-none d-lg-block fw-bold border-bottom border-light">最新消息！新版本 v15.4
+              釋出，搶先體驗！</p>
+          </div>
+        </div>
+        <!--MOBILE BANNER 標語-->
+        <p class="d-block d-lg-none font-shrikhand fs-20 spacing-26 text-center">ALPHABOX+</p>
+        <p class="d-block d-lg-none fw-bold spacing-5 text-center mb-32">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-16 position-relative">
+            <p class="position-absolute font-shrikhand fst-italic fs-32 top-0 start-50 translate-middle-x pt-16">Diane
+            </p>
+            <img src="/project-week8-ALPHABOX/assets/diane_square1-9f0571f9.png" alt="diane-profile" class="w-100">
+          </div>
+          <div class="col-lg-6">
+            <!--PC BANNER 標語-->
+            <p class="d-none d-lg-block font-shrikhand fs-32 text-center">ALPHABOX+</p>
+            <p class="d-none d-lg-block fw-bold spacing-2 text-center mb-32">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-16 position-relative">
+                <p class="position-absolute font-shrikhand fst-italic fs-32 top-0 start-50 translate-middle-x pt-16">
+                  Felix
+                </p>
+                <img src="/project-week8-ALPHABOX/assets/felix_square1-48e53108.png" alt="felix-profile" class="w-100">
+              </div>
+              <div class="col-12 col-lg-6 mb-16 position-relative">
+                <p class="position-absolute font-shrikhand fst-italic fs-32 top-0 start-50 translate-middle-x pt-16">
+                  Karina
+                </p>
+                <img src="/project-week8-ALPHABOX/assets/karina_square1-3af8d52b.png" alt="karina-profile" class="w-100">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mb-32 position-relative">
+            <p class="position-absolute font-shrikhand fst-italic fs-32 top-0 start-50 translate-middle-x pt-16">Vito
+            </p>
+            <img src="/project-week8-ALPHABOX/assets/vito_square1-4497c642.png" alt="vito-profile" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--INTRODUCTION-->
+    <div class="intro text-dark">
+      <div class="container pt-32">
+        <div class="intro-rectangle w-100"></div>
+        <div class="border-bottom border-light">
+          <p class="fw-bold fs-24 fs-lg-48 mt-16 mt-lg-8">什麼是</p>
+          <p class="fw-bold fs-24 fs-lg-48 mt-8 mt-lg-12 mb-20 mb-lg-16">ALPHABOX+</p>
+        </div>
+        <div class="d-lg-flex">
+          <span class="material-symbols-outlined d-none d-lg-inline-block">
+            line_start_arrow_notch
+          </span>
+          <div class="position-relative">
+            <div class="position-absolute bottom-0 d-lg-flex flex-column align-items-end">
+              <p class="font-shrikhand fs-64 fst-italic">01</p>
+              <p class="fw-bold fs-24">立體投影技術</p>
+              <p class="fw-bold mt-8 mb-16">透過高科技立體投影技術，讓您感受真實的科技世界。</p>
+            </div>
+            <img src="/project-week8-ALPHABOX/assets/alphabox-tech-d359f72a-d359f72a.png" alt="立體投影技術" class="intro-01 mb-32">
+          </div>
+          <span class="material-symbols-outlined d-none d-lg-inline-block">
+            line_start_arrow_notch
+          </span>
+        </div>
+        <div class="intro-rectangle w-100"></div>
+      </div>
+    </div>
 
 
-    
+
+
+
+    <footer>
+    <div class="container text-dark py-40 py-lg-52 d-lg-flex justify-content-between align-items-center">
+        <div>
+            <h1 class="mb-8 font-shrikhand fs-32 fst-italic ">ALPHABOX+</h1>
+            <p class="fw-bold d-lg-block d-none">Copyright © 2023 Hexschool.</p>
+        </div>
+        <span class="material-symbols-outlined">
+            emergency
+        </span>
+        <ul class="list-unstyled navbar-nav flex-lg-row">
+            <li class="nav-item"><a href="" class="nav-link fw-bold mb-8 mb-lg-0 me-24">關於我們</a></li>
+            <li class="nav-item"><a href="" class="nav-link fw-bold mb-8 mb-lg-0 me-24">產品資訊</a></li>
+            <li class="nav-item"><a href="" class="nav-link fw-bold mb-8 mb-lg-0 me-24">常見問題</a></li>
+            <li class="nav-item"><a href="" class="nav-link fw-bold mb-8 mb-lg-0">隱私政策</a></li>
+        </ul>
+        <p class="fw-bold d-lg-none d-block">Copyright © 2023 Hexschool.</p>
+    </div>
+</footer>
       
 </body>
 
