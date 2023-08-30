@@ -11,3 +11,22 @@
     box-shadow: 0px 0px 16px 8px #8F00FFCC;
   }
 }
+
+.intro {
+  background-image: url(../../images/mobile/alphabox-tech-d359f72a.png)
+}
+
+.intro-rectangle {
+  background: linear-gradient(90deg, #7000FF 1.22%, #11002D 116.05%);
+  height: 40px;
+}
+
+
+.intro-01 {
+  height: 351px;
+
+  @include pc {
+    width: 1296px;
+    height: 560px;
+  }
+}
