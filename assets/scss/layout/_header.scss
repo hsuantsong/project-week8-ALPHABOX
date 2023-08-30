@@ -1,8 +1,0 @@
-.cust-nav {
-  background: $third;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
-
-  @include pc {
-    background: linear-gradient(180deg, #7000FF 0%, #11002D 100%);
-  }
-}

@@ -1,3 +1,13 @@
-.index-title {
-  font-size: 100px;
+.alphabox-circle {
+  width: 196px;
+}
+
+.banner {
+  /*@include pc {
+    background-image: url(../../images/horizontal/home_background.png);
+  }*/
+
+  img:not(.alphabox-circle):hover {
+    box-shadow: 0px 0px 16px 8px #8F00FFCC;
+  }
 }
