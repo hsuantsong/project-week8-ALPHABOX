@@ -74,10 +74,6 @@
 
 .share {
   background: radial-gradient(50% 50% at 50% 50%, #000000 0%, #28085C 100%);
-
-  .material-symbols-outlined {
-    font-size: 80px;
-  }
 }
 
 .circle {
@@ -105,4 +101,41 @@
 
 .swiper {
   overflow: initial;
+}
+
+.watermark {
+  font-size: 128px;
+  color: #FFFFFF0A;
+  bottom: -250px;
+
+  @include pc {
+    font-size: 400px;
+  }
+}
+
+.line {
+  display: inline-block;
+  width: 124px;
+  height: 8px;
+  border-radius: 50px;
+
+}
+
+.emergency {
+  font-size: 80px;
+}
+
+
+.point-scan {
+  font-size: 24px;
+}
+
+.contact {
+  .btn {
+    width: 100%;
+
+    @include pc {
+      width: 416px;
+    }
+  }
 }
