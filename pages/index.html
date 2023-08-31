@@ -115,14 +115,16 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon material-symbols-outlined"
-              aria-hidden="true">line_start_arrow_notch</span>
-            <span class="visually-hidden">Previous</span>
+            <span>
+              <img src="../assets/images/square/line_start_arrow_notch-3ea0ea93.svg" alt="previous">
+            </span>
+            <!--<span class="visually-hidden">Previous</span>-->
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon material-symbols-outlined"
-              aria-hidden="true">line_start_arrow_notch</span>
-            <span class="visually-hidden">Next</span>
+            <span>
+              <img src="../assets/images/square/next_arrow.png" alt="next">
+            </span>
+            <!--<span class="visually-hidden">Next</span>-->
           </button>
         </div>
 
@@ -146,11 +148,10 @@
               </div>
               <p class="fs-20 mb-12">產品升級公告</p>
               <div class="d-lg-flex">
-                <p clas="mb-12">榮幸地宣布，ALPHABOX+ 已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！
+                <p clas="mb-12 fle-grow-1">榮幸地宣布，ALPHABOX+
+                  已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！
                 </p>
-                <span class="material-symbols-outlined" style="width: 196px">
-                  line_start_arrow_notch
-                </span>
+                <img src="../assets/images/square/arrow-L.png" alt="右箭頭">
               </div>
             </a>
           </div>
@@ -166,9 +167,7 @@
             </a>
             <p class="fs-20 mb-12">限時優惠活動</p>
             <p clas="mb-12 flex-grow-1">為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。訂閱 ALPHABOX+ 的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！</p>
-            <span class="material-symbols-outlined">
-              line_start_arrow_notch
-            </span>
+            <img src="../assets/images/square/arrow-M.png" alt="右箭頭">
           </div>
 
           <div class="col-12 col-lg-6 border-bottom border-light py-32 py-lg-40">
@@ -182,17 +181,15 @@
             </a>
             <p class="fs-20 mb-12">新功能上線</p>
             <p clas="mb-12 flex-grow-1">為使您的 ALPHABOX+ 更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。</p>
-            <span class="material-symbols-outlined">
-              line_start_arrow_notch
-            </span>
+            <img src="../assets/images/square/arrow-M.png" alt="右箭頭">
           </div>
         </div>
-        <div class="mt-40 d-flex justify-content-center align-items-center">
-          <img src="../assets/images/square/circle.png" alt="alphabox-circle">
+        <a class="mt-40 d-flex justify-content-center align-items-center" href="#">
+          <img src="../assets/images/square/circle_without_dot.png" alt="alphabox-circle" class="small-circle">
           <div class="position-absolute">
-            <a class="fw-bold text-light">查看更多</a>
+            <p class="fw-bold text-light">查看更多</p>
           </div>
-        </div>
+        </a>
         <div class="d-none d-lg-block bottom-0 mt-96">
           <p class="fw-bold text-end">為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
         </div>
@@ -202,21 +199,102 @@
     <!--SHARE-->
     <div class="share position-relative overflow-hidden">
       <div class="container pt-60 pt-lg-160 pb-80 pb-lg-40">
-        <div class="fw-bold d-lg-flex">
-          <div>
-            <p class="fs-40 fs-lg-48">使用分享</p>
-            <p>01-04</p>
+        <div class="fw-bold row">
+          <div class="col-12 d-lg-flex align-items-center">
+            <p class="col-lg-5 fs-40 fs-lg-48 mb-lg-16">使用分享</p>
+            <p class="col-lg-7 d-none d-lg-block">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
           </div>
-          <p>展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+          <p class="col-12 mb-24 mb-lg-40">01-04</p>
+          <p class="col-12 d-block d-lg-none mb-24">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
         </div>
         <div>
           <span class="material-symbols-outlined emergency">
             emergency
           </span>
         </div>
-        <div class="swiper">
-          <ul class="swiper-wrapper list-unstyled mb-0">
-            <li class="swiper-slide bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40">
+        <!--PC版SCROLL-->
+        <div class="container d-none d-lg-block px-0">
+          <div class="swiper">
+            <ul class="swiper-wrapper list-unstyled mb-0">
+              <li class="swiper-slide bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 me-lg-24">
+                <div class="d-flex mb-32 align-items-center">
+                  <p class="fw-bold me-8">Zona</p>
+                  <span class="circle bg-light me-8"></span>
+                  <p class="fw-bold">Taipei</p>
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="circle-2 bg-light me-16"></span>
+                  <span class="circle-2 bg-light me-16"></span>
+                  <p class="fw-bold">ALPHABOX+ Dianne</p>
+                </div>
+              </li>
+
+              <li class="swiper-slide bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 me-lg-24">
+                <div class="d-flex mb-32 align-items-center">
+                  <p class="fw-bold me-8">Lin</p>
+                  <span class="circle bg-dark me-8"></span>
+                  <p class="fw-bold">Chiayi</p>
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="circle-2 bg-dark me-16"></span>
+                  <span class="circle-2 bg-dark me-16"></span>
+                  <p class="fw-bold">ALPHABOX+ Felix</p>
+                </div>
+              </li>
+
+              <li class="swiper-slide bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 me-lg-24">
+                <div class="d-flex mb-32 align-items-center">
+                  <p class="fw-bold me-8">云</p>
+                  <span class="circle bg-light me-8"></span>
+                  <p class="fw-bold">Taipei</p>
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="circle-2 bg-light me-16"></span>
+                  <span class="circle-2 bg-light me-16"></span>
+                  <p class="fw-bold">ALPHABOX+ Dianne</p>
+                </div>
+              </li>
+
+              <li class="swiper-slide bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 me-lg-24">
+                <div class="d-flex mb-32 align-items-center">
+                  <p class="fw-bold me-8">Zichi</p>
+                  <span class="circle bg-dark me-8"></span>
+                  <p class="fw-bold">Kaohsiung</p>
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="circle-2 bg-dark me-16"></span>
+                  <span class="circle-2 bg-dark me-16"></span>
+                  <p class="fw-bold">ALPHABOX+ Vito</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--SCROLLBAR-->
+          <div class="row align-items-center">
+            <div class="col-8">
+              <div class="swiper-scrollbar position-static"></div>
+            </div>
+            <div class="col-1">
+              <p class="mb-0 text-white">SCROLL</p>
+            </div>
+          </div>
+        </div>
+        <!--MOBILE版-->
+        <div class="container-fluid d-lg-none px-0">
+          <ul class="list-unstyled mb-0">
+            <li class="bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 col-12">
               <div class="d-flex mb-32 align-items-center">
                 <p class="fw-bold me-8">Zona</p>
                 <span class="circle bg-light me-8"></span>
@@ -232,7 +310,7 @@
               </div>
             </li>
 
-            <li class="swiper-slide bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40">
+            <li class="bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 col-12">
               <div class="d-flex mb-32 align-items-center">
                 <p class="fw-bold me-8">Lin</p>
                 <span class="circle bg-dark me-8"></span>
@@ -248,7 +326,7 @@
               </div>
             </li>
 
-            <li class="swiper-slide bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40">
+            <li class="bg-success share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 col-12">
               <div class="d-flex mb-32 align-items-center">
                 <p class="fw-bold me-8">云</p>
                 <span class="circle bg-light me-8"></span>
@@ -264,7 +342,7 @@
               </div>
             </li>
 
-            <li class="swiper-slide bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40">
+            <li class="bg-light text-dark share-card py-24 py-lg-40 mb-24 px-24 px-lg-40 col-12">
               <div class="d-flex mb-32 align-items-center">
                 <p class="fw-bold me-8">Zichi</p>
                 <span class="circle bg-dark me-8"></span>
@@ -281,6 +359,7 @@
             </li>
           </ul>
         </div>
+
         <div class="d-none d-lg-block">
           <p class="fw-bold">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
         </div>
@@ -331,6 +410,20 @@
     <%- include('./layout/footer'); -%>
 
       <script type="module" src="../main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper('.swiper', {
+          // slide 間距
+          spaceBetween: 10,
+          slidesPerView: 3,
+          // Scrollbar
+          scrollbar: {
+            el: ".swiper-scrollbar"
+          },
+          // 使 swiper 可以使用滑鼠滾輪捲動
+          mousewheel: true,
+        });
+      </script>
 </body>
 
 </html>

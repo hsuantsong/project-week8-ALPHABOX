@@ -1,5 +1,20 @@
 .alphabox-circle {
   width: 196px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
 .bg-banner {
@@ -63,17 +78,36 @@
   text-align: center;
 }
 
+
+
 .news {
   background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000000 100%);
 
-  img {
+  .small-circle {
     width: 132px;
-    height: 132px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
   }
 }
 
 .share {
   background: radial-gradient(50% 50% at 50% 50%, #000000 0%, #28085C 100%);
+}
+
+.swiper {
+  overflow: initial;
+}
+
+.swiper-scrollbar {
+  height: 4px;
+  background-color: #ffffff60;
+}
+
+.swiper-scrollbar-drag {
+  background-color: $light;
 }
 
 .circle {
@@ -106,10 +140,11 @@
 .watermark {
   font-size: 128px;
   color: #FFFFFF0A;
-  bottom: -250px;
+  bottom: -70px;
 
   @include pc {
     font-size: 400px;
+    bottom: -250px;
   }
 }
 
