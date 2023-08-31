@@ -400,7 +400,11 @@ $spacers: (
   40: $spacer*2.5,
   52: $spacer*3.25,
   56: $spacer*3.5,
+  60: $spacer*3.75,
   76: $spacer*4.75,
+  80: $spacer*5,
+  96: $spacer*6,
+  160: $spacer*10,
   ) !default; //*custom
 // scss-docs-end spacer-variables-maps
 

@@ -2,10 +2,18 @@
   width: 196px;
 }
 
-.banner {
-  /*@include pc {
-    background-image: url(../../images/horizontal/home_background.png);
-  }*/
+.bg-banner {
+  @include pc {
+    background-image: url(../images/horizontal/home_background.png);
+    height: 880px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    img {
+      object-fit: cover;
+    }
+  }
 
   img:not(.alphabox-circle):hover {
     box-shadow: 0px 0px 16px 8px #8F00FFCC;
@@ -13,7 +21,17 @@
 }
 
 .intro {
-  background-image: url(../../images/mobile/alphabox-tech-d359f72a.png)
+  background-image: url(../images/mobile/alphabox-tech-d359f72a.png);
+  height: 1089px;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: blur(12px);
+}
+
+.bg-blur {
+  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+  z-index: -2;
 }
 
 .intro-rectangle {
@@ -22,11 +40,69 @@
 }
 
 
-.intro-01 {
+.carousel-item {
+  img {
+    height: 351px;
+
+    @include pc {
+      width: 1296px;
+      height: 560px;
+    }
+  }
+}
+
+
+.carousel-title {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: $light;
+  text-align: center;
+}
+
+.news {
+  background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000000 100%);
+
+  img {
+    width: 132px;
+    height: 132px;
+  }
+}
+
+.share {
+  background: radial-gradient(50% 50% at 50% 50%, #000000 0%, #28085C 100%);
+
+  .material-symbols-outlined {
+    font-size: 80px;
+  }
+}
+
+.circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.circle-2 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.share-card {
   height: 351px;
 
   @include pc {
-    width: 1296px;
-    height: 560px;
+    width: 416px;
+    height: 416px;
   }
+}
+
+.swiper {
+  overflow: initial;
 }
