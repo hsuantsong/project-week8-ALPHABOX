@@ -17,10 +17,19 @@
   }
 }
 
+.max-height {
+  max-height: 351px;
+
+  @include pc {
+    max-height: 676px;
+  }
+}
+
 .bg-banner {
+  height: 880px;
+
   @include pc {
     background-image: url(../images/horizontal/home_background.png);
-    height: 880px;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
