@@ -393,6 +393,7 @@ $spacers: (
   8: $spacer*0.5,
   12: $spacer*0.75,
   16: $spacer*1,
+  18: $spacer*1.125,
   20: $spacer*1.25,
   24: $spacer*1.5,
   28: $spacer*1.75,
@@ -648,6 +649,8 @@ $font-sizes: (
   //64px
   96: $font-size-base*6,
   //96px
+  128: $font-size-base*8,
+  //128px
 
   ) !default; // *custom
 // scss-docs-end font-sizes

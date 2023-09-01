@@ -174,3 +174,44 @@
     }
   }
 }
+
+.card {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: all 1s;
+}
+
+.card-1 {
+  background-image: url(../images/vertical/diane_vertical.png);
+}
+
+.card-2 {
+  background-image: url(../images/vertical/felix_vertical.png);
+}
+
+.card-3 {
+  background-image: url(../images/vertical/karina_verticalgle.png);
+}
+
+.card-4 {
+  background-image: url(../images/vertical/vito_vertical.png);
+}
+
+
+
+
+
+/*.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 1;
+  transition: opacity 1s;
+  pointer-events: none;
+}*/
