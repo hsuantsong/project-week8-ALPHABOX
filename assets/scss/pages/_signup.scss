@@ -1,0 +1,21 @@
+.sign-up {
+    background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000000 100%);
+}
+
+.btn-social {
+    border-radius: 24px;
+}
+
+.or-line {
+    width: 46.7%;
+    color: #828282;
+
+    @include pc {
+        width: 47.1%;
+
+    }
+}
+
+.link-underline {
+    text-decoration: underline;
+}
