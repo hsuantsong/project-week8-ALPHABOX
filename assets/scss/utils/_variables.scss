@@ -407,6 +407,8 @@ $spacers: (
   76: $spacer*4.75,
   80: $spacer*5,
   96: $spacer*6,
+  136: $spacer*8.5,
+  144: $spacer*9,
   160: $spacer*10,
   ) !default; //*custom
 // scss-docs-end spacer-variables-maps
@@ -570,6 +572,7 @@ $aspect-ratios: (
 // stylelint-disable value-keyword-case
 $font-family-sans-serif: 'Noto Sans TC',
   Shrikhand,
+  'Saira Extra Condensed',
   system-ui,
   -apple-system,
   "Segoe UI",
@@ -651,6 +654,8 @@ $font-sizes: (
   //96px
   128: $font-size-base*8,
   //128px
+  400: $font-size-base*25,
+  //400px
 
   ) !default; // *custom
 // scss-docs-end font-sizes

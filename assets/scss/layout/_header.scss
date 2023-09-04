@@ -1,3 +1,7 @@
-.navbar-toggler-icon {
+.navbar .material-symbols-outlined {
     color: $light;
+}
+
+.nav-item a:hover {
+    color: $dark-300 !important;
 }
