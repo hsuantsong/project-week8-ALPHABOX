@@ -14,3 +14,4 @@ const carousel = new bootstrap.Carousel(myCarousel, {
     //   ride: "carousel", 打開會自動播放到最後一張
 
 });
+
